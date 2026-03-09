@@ -1,0 +1,39 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "This is set of math games",
+  "keywords": [
+    "cli",
+    "puzzle",
+    "math",
+    "game"
+  ],
+  "bugs": {
+    "url": "https://github.com/yurshul/backend-project-lvl1/issues"
+  },
+  "license": "ISC",
+  "author": "Yuriy Shulga",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurshul/backend-project-lvl1.git"
+  },
+  "homepage": "https://github.com/yurshul/backend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.11.0",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0"
+  }
+}
