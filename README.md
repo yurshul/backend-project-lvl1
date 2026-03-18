@@ -9,11 +9,30 @@ This is a set of math games
 ```
 git clone https://github.com/yurshul/brain-games.git
 cd brain-games
-npm install
+npm ci --omit=dev
 npm link
 ```
 
 [![asciicast](https://asciinema.org/a/844694.svg)](https://asciinema.org/a/844694)
+
+## Brain-games
+
+```js
+brain-games
+
+[1] brain-calc
+[2] brain-even
+[3] brain-gcd
+[4] brain-prime
+[5] brain-progression
+[0] CANCEL
+
+Choose a game? [1...5 / 0]:
+```
+
+_The `brain-games` command launches an interactive menu where the user can choose which game to play._
+
+[![asciicast](https://asciinema.org/a/850664.svg)](https://asciinema.org/a/850664)
 
 ## Brain-even
 

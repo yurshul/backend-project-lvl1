@@ -1,6 +1,6 @@
 {
-  "name": "@hexlet/code",
-  "version": "1.0.0",
+  "name": "brain-games",
+  "version": "1.0.1",
   "description": "This is set of math games",
   "keywords": [
     "cli",
